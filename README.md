@@ -1,9 +1,8 @@
-# DEPI_GRADUTION_PROJECT
+# Group D Members
 
-GroupD Names
-Ahmed Hussein Motawe 
-Yousef Ahmed Mohammed Habashy
-marwan taher elsayed afify
-mohab mohamed shehab eldeen
-Mahmoud Mohamed Abbas Helal
-Mostafa Ragap Soliman Algezawy
+- Ahmed Hussein Motawe  
+- Yousef Ahmed Mohammed Habashy  
+- Marwan Taher Elsayed Afify  
+- Mohab Mohamed Shehab Eldeen  
+- Mahmoud Mohamed Abbas Helal  
+- Mostafa Ragap Soliman Algezawy
