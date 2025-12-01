@@ -1,0 +1,1 @@
+{"uuid":"7ab71d14-fab0-45ff-a519-cc741e0ba40f","name":"Tests.Integration.InvalidLoginTest","children":["1b5c3b90-1b9d-4465-b160-3f1fea05892a"],"befores":[],"afters":[{"name":"logoutUser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764565403955,"stop":1764565403961}],"start":1764565382522,"stop":1764565404295}

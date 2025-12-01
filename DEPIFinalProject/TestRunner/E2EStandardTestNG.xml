@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs E2E Standard User Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <test name="Tests">
+        <classes>
+            <class name="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.TaxReCalculationTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.TotalCalculationTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.TotalCalculationTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.FailedCheckoutTest"/>
+
+            <class name="Tests.EndToEnd.StandardUser.BackForwardNavigationTest"/>
+        </classes>
+    </test>
+</suite>

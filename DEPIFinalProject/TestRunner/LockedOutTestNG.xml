@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs E2E Locked Out User Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <test name="Tests">
+        <classes>
+            <class name="Tests.EndToEnd.LockedOutUser.LoginAttemptAndErrorVerificationTest"/>
+
+            <class name="Tests.EndToEnd.LockedOutUser.MultipleLoginAttemptsTest"/>
+
+            <class name="Tests.EndToEnd.LockedOutUser.LoginAfterStandardUserSuccessTest"/>
+
+            <class name="Tests.EndToEnd.LockedOutUser.CheckoutMultipleProductsTest"/>
+        </classes>
+    </test>
+</suite>

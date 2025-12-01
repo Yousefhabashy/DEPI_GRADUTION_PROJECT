@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs E2E Performance Glitch User Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <test name="Tests">
+        <classes>
+            <class name="Tests.EndToEnd.PerformanceUser.TimeoutHandlingDuringCheckoutTest"/>
+
+            <class name="Tests.EndToEnd.PerformanceUser.AddMultipleProductsTest"/>
+        </classes>
+    </test>
+</suite>

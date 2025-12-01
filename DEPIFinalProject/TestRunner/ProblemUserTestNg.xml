@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs E2E Problem User Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <test name="Tests">
+        <classes>
+            <class name="Tests.EndToEnd.ProblemUser.AddMultipleProductToCartTest"/>
+
+            <class name="Tests.EndToEnd.ProblemUser.TaxCalculationTest"/>
+
+            <class name="Tests.EndToEnd.ProblemUser.ProductDetailsTest"/>
+
+            <class name="Tests.EndToEnd.ProblemUser.TotalPriceCalculationTest"/>
+        </classes>
+    </test>
+</suite>

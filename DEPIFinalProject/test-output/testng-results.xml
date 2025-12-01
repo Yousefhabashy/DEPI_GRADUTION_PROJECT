@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="92" passed="87" failed="3" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-01T12:01:54 EET" name="SwagLabs E2E Standard User Test Suite" finished-at="2025-12-01T12:02:57 EET" duration-ms="62988">
+    <groups>
+    </groups>
+    <test started-at="2025-12-01T12:01:54 EET" name="Tests" finished-at="2025-12-01T12:02:57 EET" duration-ms="62988">
+      <class name="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:12 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:12 EET" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:12 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CartResetAndRepurchaseFlowTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:12 EET" name="AddProduct1" finished-at="2025-12-01T12:02:13 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest.loginAsStandardUser" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct1 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct1 status=SUCCESS method=CartResetAndRepurchaseFlowTest.AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="removeAndContinueShopping()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="removeAndContinueShopping" finished-at="2025-12-01T12:02:13 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest.AddProduct1" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAndContinueShopping -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:13 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAndContinueShopping status=SUCCESS method=CartResetAndRepurchaseFlowTest.removeAndContinueShopping()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="AddProduct2" finished-at="2025-12-01T12:02:13 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest.removeAndContinueShopping" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct2 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:13 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct2 status=SUCCESS method=CartResetAndRepurchaseFlowTest.AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="VerifyProductInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="VerifyProductInCart" finished-at="2025-12-01T12:02:13 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest.AddProduct2" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductInCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductInCart status=SUCCESS method=CartResetAndRepurchaseFlowTest.VerifyProductInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:13 EET" name="completeCheckout" finished-at="2025-12-01T12:02:14 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest.VerifyProductInCart" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:14 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:14 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=CartResetAndRepurchaseFlowTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest@389b0789]" started-at="2025-12-01T12:02:14 EET" name="logoutUser" finished-at="2025-12-01T12:02:15 EET" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CartResetAndRepurchaseFlowTest -->
+      <class name="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:57 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:01:57 EET" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:57 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:57 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CheckoutMultipleProductsTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:57 EET" name="addProduct1" finished-at="2025-12-01T12:01:58 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest.loginAsStandardUser" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:58 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProduct1 status=SUCCESS method=CheckoutMultipleProductsTest.addProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="addProduct2" finished-at="2025-12-01T12:01:58 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest.addProduct1" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct2 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProduct2 status=SUCCESS method=CheckoutMultipleProductsTest.addProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="verifyProductsAppearsInCart" finished-at="2025-12-01T12:01:58 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest.addProduct2" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAppearsInCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:58 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsAppearsInCart status=SUCCESS method=CheckoutMultipleProductsTest.verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:58 EET" name="completeCheckout" finished-at="2025-12-01T12:01:59 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest.verifyProductsAppearsInCart" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:59 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:59 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=CheckoutMultipleProductsTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest@36804139]" started-at="2025-12-01T12:01:59 EET" name="logoutUser" finished-at="2025-12-01T12:02:00 EET" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CheckoutMultipleProductsTest -->
+      <class name="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:46 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:46 EET" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:46 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:46 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addToCartFromHomePage()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:46 EET" name="addToCartFromHomePage" finished-at="2025-12-01T12:02:47 EET" depends-on-methods="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest.loginAsStandardUser" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.addToCartFromHomePage()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addToCartFromHomePage2()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="addToCartFromHomePage2" finished-at="2025-12-01T12:02:47 EET" depends-on-methods="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest.addToCartFromHomePage" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage2 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:47 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage2 status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.addToCartFromHomePage2()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="EnterCart()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="EnterCart" finished-at="2025-12-01T12:02:47 EET" depends-on-methods="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest.addToCartFromHomePage2" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterCart status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.EnterCart()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="Check()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="Check" finished-at="2025-12-01T12:02:47 EET" depends-on-methods="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest.EnterCart" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Check status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.Check()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="Remove1()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="Remove1" finished-at="2025-12-01T12:02:47 EET" depends-on-methods="Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest.Check" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove1 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Remove1 status=SUCCESS method=AddElementsThenRemoveOneFromCartTest.Remove1()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest@3ddc6915]" started-at="2025-12-01T12:02:47 EET" name="logoutUser" finished-at="2025-12-01T12:02:48 EET" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.AddElementsThenRemoveOneFromCartTest -->
+      <class name="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:42 EET" name="startDriver" finished-at="2025-12-01T12:01:54 EET" duration-ms="11840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:54 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:01:54 EET" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:55 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=SuccessfulPurchaseFlowTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="addProductToCart" finished-at="2025-12-01T12:01:55 EET" depends-on-methods="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest.loginAsStandardUser" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:55 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=SuccessfulPurchaseFlowTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="verifyProductAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="verifyProductAppearsInCart" finished-at="2025-12-01T12:01:55 EET" depends-on-methods="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest.addProductToCart" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAppearsInCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:55 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductAppearsInCart status=SUCCESS method=SuccessfulPurchaseFlowTest.verifyProductAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:55 EET" name="checkoutProduct" finished-at="2025-12-01T12:01:56 EET" depends-on-methods="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest.verifyProductAppearsInCart" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:56 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:56 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProduct status=SUCCESS method=SuccessfulPurchaseFlowTest.checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:56 EET" name="logoutUser" finished-at="2025-12-01T12:01:57 EET" depends-on-methods="Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest.checkoutProduct" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:01:57 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:01:57 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutUser status=SUCCESS method=SuccessfulPurchaseFlowTest.logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest@565f390]" started-at="2025-12-01T12:02:57 EET" name="stopDriver" finished-at="2025-12-01T12:02:58 EET" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.EndToEnd.StandardUser.SuccessfulPurchaseFlowTest -->
+      <class name="Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest">
+        <test-method signature="loginWithInvalidUser()[pri:1, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:39 EET" name="loginWithInvalidUser" finished-at="2025-12-01T12:02:39 EET" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:39 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUser status=SUCCESS method=UserLoginRetryAndPurchaseWorkflowTest.loginWithInvalidUser()[pri:1, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="loginWithValidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:39 EET" name="loginWithValidUser" finished-at="2025-12-01T12:02:40 EET" depends-on-methods="Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest.loginWithInvalidUser" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:40 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUser status=SUCCESS method=UserLoginRetryAndPurchaseWorkflowTest.loginWithValidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addToCartFromProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:40 EET" name="addToCartFromProductPage" finished-at="2025-12-01T12:02:40 EET" depends-on-methods="Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest.loginWithValidUser" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromProductPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:40 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:40 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromProductPage status=SUCCESS method=UserLoginRetryAndPurchaseWorkflowTest.addToCartFromProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:40 EET" name="checkoutProduct" finished-at="2025-12-01T12:02:41 EET" depends-on-methods="Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest.addToCartFromProductPage" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:41 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:41 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProduct status=SUCCESS method=UserLoginRetryAndPurchaseWorkflowTest.checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest@4ef782af]" started-at="2025-12-01T12:02:41 EET" name="logoutUser" finished-at="2025-12-01T12:02:41 EET" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.UserLoginRetryAndPurchaseWorkflowTest -->
+      <class name="Tests.EndToEnd.StandardUser.TaxReCalculationTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:00 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:00 EET" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:00 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:00 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=TaxReCalculationTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:00 EET" name="AddProduct1" finished-at="2025-12-01T12:02:00 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.loginAsStandardUser" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct1 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:00 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:00 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct1 status=SUCCESS method=TaxReCalculationTest.AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:00 EET" name="AddProduct2" finished-at="2025-12-01T12:02:01 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.AddProduct1" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct2 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:01 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct2 status=SUCCESS method=TaxReCalculationTest.AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct3()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="AddProduct3" finished-at="2025-12-01T12:02:01 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.AddProduct2" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct3 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:01 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct3 status=SUCCESS method=TaxReCalculationTest.AddProduct3()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="verifyProductsAppearsInCart" finished-at="2025-12-01T12:02:01 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.AddProduct3" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAppearsInCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:01 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsAppearsInCart status=SUCCESS method=TaxReCalculationTest.verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkTaxAndTotalPrice()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:01 EET" name="checkTaxAndTotalPrice" finished-at="2025-12-01T12:02:02 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.verifyProductsAppearsInCart" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTaxAndTotalPrice -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:02 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTaxAndTotalPrice status=SUCCESS method=TaxReCalculationTest.checkTaxAndTotalPrice()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="removeProductFromCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="removeProductFromCheckout" finished-at="2025-12-01T12:02:02 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.checkTaxAndTotalPrice" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCheckout status=SUCCESS method=TaxReCalculationTest.removeProductFromCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="reCalcTotalAndTax()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="reCalcTotalAndTax" finished-at="2025-12-01T12:02:02 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.removeProductFromCheckout" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reCalcTotalAndTax -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reCalcTotalAndTax status=SUCCESS method=TaxReCalculationTest.reCalcTotalAndTax()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:02 EET" name="completeCheckout" finished-at="2025-12-01T12:02:02 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TaxReCalculationTest.reCalcTotalAndTax" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:03 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:03 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=TaxReCalculationTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.TaxReCalculationTest@5038d0b5]" started-at="2025-12-01T12:02:03 EET" name="logoutUser" finished-at="2025-12-01T12:02:04 EET" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.TaxReCalculationTest -->
+      <class name="Tests.EndToEnd.StandardUser.BackForwardNavigationTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:56 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:56 EET" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:56 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=BackForwardNavigationTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="navigate3Products()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:56 EET" name="navigate3Products" finished-at="2025-12-01T12:02:56 EET" depends-on-methods="Tests.EndToEnd.StandardUser.BackForwardNavigationTest.loginAsStandardUser" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate3Products -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:56 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate3Products status=SUCCESS method=BackForwardNavigationTest.navigate3Products()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addLastProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:56 EET" name="addLastProductToCart" finished-at="2025-12-01T12:02:57 EET" depends-on-methods="Tests.EndToEnd.StandardUser.BackForwardNavigationTest.navigate3Products" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLastProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:57 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addLastProductToCart status=SUCCESS method=BackForwardNavigationTest.addLastProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addPreviousProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="addPreviousProduct" finished-at="2025-12-01T12:02:57 EET" depends-on-methods="Tests.EndToEnd.StandardUser.BackForwardNavigationTest.addLastProductToCart" duration-ms="46" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Tests.EndToEnd.StandardUser.BackForwardNavigationTest.addPreviousProduct(BackForwardNavigationTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPreviousProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:57 EET" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addPreviousProduct status=FAILURE method=BackForwardNavigationTest.addPreviousProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkAddedProducts()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="checkAddedProducts" finished-at="2025-12-01T12:02:57 EET" depends-on-methods="Tests.EndToEnd.StandardUser.BackForwardNavigationTest.addPreviousProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Tests.EndToEnd.StandardUser.BackForwardNavigationTest.checkAddedProducts() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38 depends on not successfully finished methods 
+[Tests.EndToEnd.StandardUser.BackForwardNavigationTest.addPreviousProduct() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Tests.EndToEnd.StandardUser.BackForwardNavigationTest.checkAddedProducts() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38 depends on not successfully finished methods 
+[Tests.EndToEnd.StandardUser.BackForwardNavigationTest.addPreviousProduct() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddedProducts -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="completeCheckout" finished-at="2025-12-01T12:02:57 EET" depends-on-methods="Tests.EndToEnd.StandardUser.BackForwardNavigationTest.checkAddedProducts" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Tests.EndToEnd.StandardUser.BackForwardNavigationTest.completeCheckout() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38 depends on not successfully finished methods 
+[Tests.EndToEnd.StandardUser.BackForwardNavigationTest.checkAddedProducts() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Tests.EndToEnd.StandardUser.BackForwardNavigationTest.completeCheckout() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38 depends on not successfully finished methods 
+[Tests.EndToEnd.StandardUser.BackForwardNavigationTest.checkAddedProducts() on instance Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.BackForwardNavigationTest@61eaec38]" started-at="2025-12-01T12:02:57 EET" name="logoutUser" finished-at="2025-12-01T12:02:57 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.BackForwardNavigationTest -->
+      <class name="Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:41 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:42 EET" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:42 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:42 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=RefreshPageWhilePurchasingTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:42 EET" name="openProductPage" finished-at="2025-12-01T12:02:43 EET" depends-on-methods="Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest.loginAsStandardUser" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:43 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:43 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openProductPage status=SUCCESS method=RefreshPageWhilePurchasingTest.openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:43 EET" name="addProductToCart" finished-at="2025-12-01T12:02:43 EET" depends-on-methods="Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest.openProductPage" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:43 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:43 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=RefreshPageWhilePurchasingTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:44 EET" name="checkoutProduct" finished-at="2025-12-01T12:02:45 EET" depends-on-methods="Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest.addProductToCart" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:45 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:45 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProduct status=SUCCESS method=RefreshPageWhilePurchasingTest.checkoutProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest@3b79fd76]" started-at="2025-12-01T12:02:45 EET" name="logoutUser" finished-at="2025-12-01T12:02:46 EET" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.RefreshPageWhilePurchasingTest -->
+      <class name="Tests.EndToEnd.StandardUser.TotalCalculationTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:35 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:36 EET" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:36 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:36 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=TotalCalculationTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:36 EET" name="AddProduct1" finished-at="2025-12-01T12:02:36 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.loginAsStandardUser" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct1 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:36 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:36 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct1 status=SUCCESS method=TotalCalculationTest.AddProduct1()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:36 EET" name="AddProduct2" finished-at="2025-12-01T12:02:36 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.AddProduct1" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct2 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:36 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:36 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct2 status=SUCCESS method=TotalCalculationTest.AddProduct2()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct3()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:37 EET" name="AddProduct3" finished-at="2025-12-01T12:02:37 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.AddProduct2" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct3 -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:37 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:37 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct3 status=SUCCESS method=TotalCalculationTest.AddProduct3()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:37 EET" name="verifyProductsAppearsInCart" finished-at="2025-12-01T12:02:37 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.AddProduct3" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAppearsInCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:37 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:37 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsAppearsInCart status=SUCCESS method=TotalCalculationTest.verifyProductsAppearsInCart()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkTaxAndTotalPrice()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:37 EET" name="checkTaxAndTotalPrice" finished-at="2025-12-01T12:02:38 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.verifyProductsAppearsInCart" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTaxAndTotalPrice -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:38 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:38 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTaxAndTotalPrice status=SUCCESS method=TotalCalculationTest.checkTaxAndTotalPrice()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:38 EET" name="completeCheckout" finished-at="2025-12-01T12:02:38 EET" depends-on-methods="Tests.EndToEnd.StandardUser.TotalCalculationTest.checkTaxAndTotalPrice" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:38 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:38 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=TotalCalculationTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.TotalCalculationTest@1130520d]" started-at="2025-12-01T12:02:38 EET" name="logoutUser" finished-at="2025-12-01T12:02:39 EET" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.TotalCalculationTest -->
+      <class name="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:26 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:26 EET" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:26 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CheckProductsInCartAfterLogoutTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:26 EET" name="openProductPage" finished-at="2025-12-01T12:02:26 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.loginAsStandardUser" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:26 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openProductPage status=SUCCESS method=CheckProductsInCartAfterLogoutTest.openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:26 EET" name="addProductToCart" finished-at="2025-12-01T12:02:27 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.openProductPage" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:27 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:27 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=CheckProductsInCartAfterLogoutTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:27 EET" name="checkAddedProduct" finished-at="2025-12-01T12:02:27 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.addProductToCart" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddedProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:27 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:27 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddedProduct status=SUCCESS method=CheckProductsInCartAfterLogoutTest.checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userLogout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:27 EET" name="userLogout" finished-at="2025-12-01T12:02:28 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.checkAddedProduct" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:28 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:28 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLogout status=SUCCESS method=CheckProductsInCartAfterLogoutTest.userLogout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="reLoginAsStandardUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:28 EET" name="reLoginAsStandardUser" finished-at="2025-12-01T12:02:28 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.userLogout" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reLoginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:28 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:28 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reLoginAsStandardUser status=SUCCESS method=CheckProductsInCartAfterLogoutTest.reLoginAsStandardUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="reCheckCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:28 EET" name="reCheckCart" finished-at="2025-12-01T12:02:34 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.reLoginAsStandardUser" duration-ms="6067" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart Products Deleted After Logout]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart Products Deleted After Logout
+at org.testng.Assert.fail(Assert.java:111)
+at Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest.reCheckCart(CheckProductsInCartAfterLogoutTest.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reCheckCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:34 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:35 EET" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reCheckCart status=FAILURE method=CheckProductsInCartAfterLogoutTest.reCheckCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest@1df8b5b8]" started-at="2025-12-01T12:02:35 EET" name="logoutUser" finished-at="2025-12-01T12:02:35 EET" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest -->
+      <class name="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:15 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:15 EET" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:15 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:15 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:15 EET" name="openProductPage" finished-at="2025-12-01T12:02:15 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.loginAsStandardUser" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:15 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:15 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openProductPage status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:15 EET" name="addProductToCart" finished-at="2025-12-01T12:02:16 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.openProductPage" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:16 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="checkAddedProduct" finished-at="2025-12-01T12:02:16 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.addProductToCart" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddedProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:16 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddedProduct status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProductStepOne()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="checkoutProductStepOne" finished-at="2025-12-01T12:02:16 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.checkAddedProduct" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProductStepOne -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:16 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProductStepOne status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.checkoutProductStepOne()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProductStepTwo()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:16 EET" name="checkoutProductStepTwo" finished-at="2025-12-01T12:02:17 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.checkoutProductStepOne" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProductStepTwo -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:17 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:17 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProductStepTwo status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.checkoutProductStepTwo()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkCartProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:17 EET" name="checkCartProduct" finished-at="2025-12-01T12:02:23 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest.checkoutProductStepTwo" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:23 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:23 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCartProduct status=SUCCESS method=CheckEmptyCartAfterCheckoutTest.checkCartProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest@57a3e26a]" started-at="2025-12-01T12:02:23 EET" name="logoutUser" finished-at="2025-12-01T12:02:23 EET" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CheckEmptyCartAfterCheckoutTest -->
+      <class name="Tests.EndToEnd.StandardUser.FailedCheckoutTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:48 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:48 EET" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:48 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:48 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=FailedCheckoutTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="AddProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:48 EET" name="AddProduct" finished-at="2025-12-01T12:02:48 EET" depends-on-methods="Tests.EndToEnd.StandardUser.FailedCheckoutTest.loginAsStandardUser" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:48 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:48 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProduct status=SUCCESS method=FailedCheckoutTest.AddProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckoutWithWrongPostalCode()[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:48 EET" name="completeCheckoutWithWrongPostalCode" finished-at="2025-12-01T12:02:55 EET" depends-on-methods="Tests.EndToEnd.StandardUser.FailedCheckoutTest.AddProduct" duration-ms="6483" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BUG DETECTED: Site accepted invalid postal code '$$$$$' ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BUG DETECTED: Site accepted invalid postal code '$$$$$' 
+at org.testng.Assert.fail(Assert.java:111)
+at Tests.EndToEnd.StandardUser.FailedCheckoutTest.completeCheckoutWithWrongPostalCode(FailedCheckoutTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutWithWrongPostalCode -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:55 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:55 EET" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckoutWithWrongPostalCode status=FAILURE method=FailedCheckoutTest.completeCheckoutWithWrongPostalCode()[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.FailedCheckoutTest@518caac3]" started-at="2025-12-01T12:02:55 EET" name="logoutUser" finished-at="2025-12-01T12:02:56 EET" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.FailedCheckoutTest -->
+      <class name="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:23 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:24 EET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:24 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CheckProductDetailsAllOverPagesTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="getExpectedProductDetails()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="getExpectedProductDetails" finished-at="2025-12-01T12:02:24 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.loginAsStandardUser" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExpectedProductDetails -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:24 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getExpectedProductDetails status=SUCCESS method=CheckProductDetailsAllOverPagesTest.getExpectedProductDetails()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="compareToProductDetailsPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="compareToProductDetailsPage" finished-at="2025-12-01T12:02:24 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.getExpectedProductDetails" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareToProductDetailsPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareToProductDetailsPage status=SUCCESS method=CheckProductDetailsAllOverPagesTest.compareToProductDetailsPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="addToCart" finished-at="2025-12-01T12:02:24 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.compareToProductDetailsPage" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=CheckProductDetailsAllOverPagesTest.addToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="compareToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="compareToCart" finished-at="2025-12-01T12:02:24 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.addToCart" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareToCart status=SUCCESS method=CheckProductDetailsAllOverPagesTest.compareToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="proceedToCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:24 EET" name="proceedToCheckout" finished-at="2025-12-01T12:02:25 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.compareToCart" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedToCheckout status=SUCCESS method=CheckProductDetailsAllOverPagesTest.proceedToCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="compareToCheckoutFinish()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="compareToCheckoutFinish" finished-at="2025-12-01T12:02:25 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.proceedToCheckout" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareToCheckoutFinish -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareToCheckoutFinish status=SUCCESS method=CheckProductDetailsAllOverPagesTest.compareToCheckoutFinish()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="completeCheckout" finished-at="2025-12-01T12:02:25 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest.compareToCheckoutFinish" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=CheckProductDetailsAllOverPagesTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest@2bec854f]" started-at="2025-12-01T12:02:25 EET" name="logoutUser" finished-at="2025-12-01T12:02:26 EET" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CheckProductDetailsAllOverPagesTest -->
+      <class name="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest">
+        <test-method signature="loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:09 EET" name="loginAsStandardUser" finished-at="2025-12-01T12:02:10 EET" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsStandardUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:10 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAsStandardUser status=SUCCESS method=CancelPurchaseAndCheckCartTest.loginAsStandardUser()[pri:1, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="openProductPage" finished-at="2025-12-01T12:02:10 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest.loginAsStandardUser" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:10 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openProductPage status=SUCCESS method=CancelPurchaseAndCheckCartTest.openProductPage()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="addProductToCart" finished-at="2025-12-01T12:02:10 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest.openProductPage" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:10 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=CancelPurchaseAndCheckCartTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:10 EET" name="checkAddedProduct" finished-at="2025-12-01T12:02:10 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest.addProductToCart" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddedProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:11 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAddedProduct status=SUCCESS method=CancelPurchaseAndCheckCartTest.checkAddedProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkoutProductStepOne()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="checkoutProductStepOne" finished-at="2025-12-01T12:02:11 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest.checkAddedProduct" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProductStepOne -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:11 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProductStepOne status=SUCCESS method=CancelPurchaseAndCheckCartTest.checkoutProductStepOne()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkCartProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="checkCartProduct" finished-at="2025-12-01T12:02:11 EET" depends-on-methods="Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest.checkoutProductStepOne" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartProduct -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:11 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCartProduct status=SUCCESS method=CancelPurchaseAndCheckCartTest.checkCartProduct()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest@21d03963]" started-at="2025-12-01T12:02:11 EET" name="logoutUser" finished-at="2025-12-01T12:02:12 EET" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.CancelPurchaseAndCheckCartTest -->
+      <class name="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest">
+        <test-method signature="checkLoginRequiredFieldError()[pri:1, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:04 EET" name="checkLoginRequiredFieldError" finished-at="2025-12-01T12:02:04 EET" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginRequiredFieldError -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:04 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:04 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginRequiredFieldError status=SUCCESS method=ValidationErrorsJourneyTest.checkLoginRequiredFieldError()[pri:1, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="loginWithInvalidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:04 EET" name="loginWithInvalidUser" finished-at="2025-12-01T12:02:05 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.checkLoginRequiredFieldError" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:05 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:05 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUser status=SUCCESS method=ValidationErrorsJourneyTest.loginWithInvalidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="loginWithValidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:05 EET" name="loginWithValidUser" finished-at="2025-12-01T12:02:05 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.loginWithInvalidUser" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUser -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:05 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:05 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUser status=SUCCESS method=ValidationErrorsJourneyTest.loginWithValidUser()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:05 EET" name="addProductToCart" finished-at="2025-12-01T12:02:05 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.loginWithValidUser" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:06 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:06 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=ValidationErrorsJourneyTest.addProductToCart()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="openCheckoutPage()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:06 EET" name="openCheckoutPage" finished-at="2025-12-01T12:02:06 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.addProductToCart" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCheckoutPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:06 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openCheckoutPage status=SUCCESS method=ValidationErrorsJourneyTest.openCheckoutPage()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkFirstName()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:06 EET" name="checkFirstName" finished-at="2025-12-01T12:02:07 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.openCheckoutPage" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFirstName -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:07 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:07 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkFirstName status=SUCCESS method=ValidationErrorsJourneyTest.checkFirstName()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkLastName()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:07 EET" name="checkLastName" finished-at="2025-12-01T12:02:07 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.checkFirstName" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLastName -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:07 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLastName status=SUCCESS method=ValidationErrorsJourneyTest.checkLastName()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="checkPostalCode()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:07 EET" name="checkPostalCode" finished-at="2025-12-01T12:02:08 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.checkLastName" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPostalCode -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:08 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:08 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPostalCode status=SUCCESS method=ValidationErrorsJourneyTest.checkPostalCode()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:08 EET" name="completeCheckout" finished-at="2025-12-01T12:02:09 EET" depends-on-methods="Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest.checkPostalCode" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:09 EET" name="screenshotOnFailure" finished-at="2025-12-01T12:02:09 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckout status=SUCCESS method=ValidationErrorsJourneyTest.completeCheckout()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest@79defdc]" started-at="2025-12-01T12:02:09 EET" name="logoutUser" finished-at="2025-12-01T12:02:09 EET" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- Tests.EndToEnd.StandardUser.ValidationErrorsJourneyTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- SwagLabs E2E Standard User Test Suite -->
+</testng-results>

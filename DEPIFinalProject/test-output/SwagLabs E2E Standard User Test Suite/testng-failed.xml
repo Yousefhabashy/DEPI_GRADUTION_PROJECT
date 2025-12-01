@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs E2E Standard User Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Tests(failed)">
+    <classes>
+      <class name="Tests.EndToEnd.StandardUser.FailedCheckoutTest">
+        <methods>
+          <include name="completeCheckoutWithWrongPostalCode"/>
+          <include name="AddProduct"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startDriver"/>
+          <include name="logoutUser"/>
+          <include name="loginAsStandardUser"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Tests.EndToEnd.StandardUser.FailedCheckoutTest -->
+      <class name="Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest">
+        <methods>
+          <include name="checkAddedProduct"/>
+          <include name="reCheckCart"/>
+          <include name="screenshotOnFailure"/>
+          <include name="loginAsStandardUser"/>
+          <include name="userLogout"/>
+          <include name="openProductPage"/>
+          <include name="startDriver"/>
+          <include name="logoutUser"/>
+          <include name="reLoginAsStandardUser"/>
+          <include name="addProductToCart"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Tests.EndToEnd.StandardUser.CheckProductsInCartAfterLogoutTest -->
+      <class name="Tests.EndToEnd.StandardUser.BackForwardNavigationTest">
+        <methods>
+          <include name="addLastProductToCart"/>
+          <include name="completeCheckout"/>
+          <include name="addPreviousProduct"/>
+          <include name="screenshotOnFailure"/>
+          <include name="loginAsStandardUser"/>
+          <include name="checkAddedProducts"/>
+          <include name="startDriver"/>
+          <include name="logoutUser"/>
+          <include name="navigate3Products"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Tests.EndToEnd.StandardUser.BackForwardNavigationTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs E2E Standard User Test Suite] -->

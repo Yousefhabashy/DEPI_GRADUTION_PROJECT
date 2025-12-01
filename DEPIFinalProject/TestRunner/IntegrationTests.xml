@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs Integration Test Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Tests">
+        <classes>
+            <class name="Tests.Integration.CheckoutWithMultipleProductsTest"/>
+
+            <class name="Tests.Integration.CheckoutWithMissingRequiredFieldsTest"/>
+
+            <class name="Tests.Integration.ProductsFilterTest"/>
+
+            <class name="Tests.Integration.LoginLogoutIntegrationTest"/>
+
+            <class name="Tests.Integration.AddProductFromProductPageTest"/>
+
+            <class name="Tests.Integration.AddToCartFromHomePageTest"/>
+
+            <class name="Tests.Integration.HomeDetailsProductDetailsTest"/>
+
+            <class name="Tests.Integration.EmptyCartCheckoutTest"/>
+
+            <class name="Tests.Integration.CartCheckoutTest"/>
+
+            <class name="Tests.Integration.InvalidLoginTest"/>
+
+            <class name="Tests.Integration.InvalidLoginWrongPassTest"/>
+<!--            <class name="Tests.Integration.SidebarNavigationIntegrationTest"/>-->
+        </classes>
+    </test>
+</suite>
